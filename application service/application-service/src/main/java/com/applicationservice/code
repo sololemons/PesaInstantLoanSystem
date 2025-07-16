@@ -1,0 +1,142 @@
+package com.applicationservice.services;
+
+import com.applicationservice.retrofit.RetrofitService;
+import com.applicationservice.dtos.ApplicationDetails;
+import com.applicationservice.dtos.IdDetails;
+import com.applicationservice.dtos.UserIdDto;
+import com.applicationservice.entities.ApplicationForm;
+import com.applicationservice.repositories.ApplicationRepository;
+import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+@Service
+@RequiredArgsConstructor
+public class ApplicationService {
+    private static final Logger logger = LoggerFactory.getLogger(ApplicationService.class);
+    private final ApplicationRepository applicationRepository;
+    private final RetrofitService retrofitService;
+    private final OcrService ocrService;
+
+    @Transactional
+    public boolean applyLoan(ApplicationDetails applicationDetails, String autHeader) {
+        UserIdDto userIdDto = retrofitService.getUserId(autHeader);
+        long userId = userIdDto.getUserId();
+        ApplicationForm applicationForm = new ApplicationForm();
+        applicationForm.setUserId(String.valueOf(userId));
+        applicationForm.setFullName(applicationDetails.getFullName());
+        IdDetails idDetails = processAndSaveID(applicationDetails.getImage());
+
+        if (idDetails != null) {
+            applicationForm.setIdNumber(idDetails.getIdNumber());
+            applicationForm.setGender(idDetails.getGender());
+            applicationForm.setDateOfBirth(idDetails.getDateOfBirth());
+            applicationForm.setFullName(idDetails.getFullName());
+            applicationForm.setImagePath(idDetails.getImagePath());
+        } else {
+            return false;
+        }
+        logger.info("Id Details: {}", applicationForm.getIdNumber());
+        logger.info("Gender: {}", applicationForm.getGender());
+        logger.info("Date of Birth: {}", applicationForm.getDateOfBirth());
+        applicationRepository.save(applicationForm);
+
+        return true;
+    }
+
+    public IdDetails processAndSaveID(MultipartFile file) {
+        try {
+            // 1. Save image locally
+            String filename = System.currentTimeMillis() + "_" + file.getOriginalFilename();
+            Path filepath = Paths.get("upload", filename);
+            Files.createDirectories(filepath.getParent());
+            Files.write(filepath, file.getBytes());
+
+
+            // 2. Extract text using OCR
+            String extractedText = ocrService.extractText(filepath.toFile());
+            logger.info("Extracted Text: {}", extractedText);
+
+            // 3. Parse details
+            String name = parseName(extractedText);
+            String idNumber = parseIdNumber(extractedText);
+            String gender = parseGender(extractedText);
+            String dateOfBirth = parseDateOfBirth(extractedText);
+
+            // 4. Save to DB
+            IdDetails doc = new IdDetails();
+            doc.setIdNumber(idNumber);
+            doc.setFullName(name);
+            doc.setGender(gender);
+            doc.setDateOfBirth(dateOfBirth);
+            doc.setImagePath(filepath.toString());
+            return doc;
+        } catch (Exception e) {
+            logger.error("Error processing ID: ", e);
+            throw new RuntimeException("Failed to process and save ID", e);
+        }
+    }
+    private String parseIdNumber(String text) {
+        for (String line : text.split("\n")) {
+            if (line.toLowerCase().contains("id number")) {
+                String[] parts = line.split(":");
+                if (parts.length > 1) {
+                    return parts[1].replaceAll("[^0-9]", "").trim();
+                }
+            }
+        }
+        return "00000000";
+    }
+    private String parseName(String text) {
+        String[] lines = text.split("\n");
+        for (int i = 0; i < lines.length; i++) {
+            if (lines[i].toLowerCase().contains("full name")) {
+                if (i + 1 < lines.length) {
+                    String nameLine = lines[i + 1].toLowerCase();
+                    return nameLine.replaceAll("[^a-z\\s]", "").trim();
+                }
+            }
+        }
+        return "unknown";
+    }
+
+
+
+    private String parseGender(String text) {
+        String[] lines = text.split("\n");
+        for (int i = 0; i < lines.length; i++) {
+            if (lines[i].toLowerCase().contains("sex")) {
+                if (i + 1 < lines.length) {
+                    String genderLine = lines[i + 1].toLowerCase();
+                    return genderLine.replaceAll("[^a-z]", "").trim();
+                }
+            }
+        }
+        return "unknown";
+    }
+
+    private String parseDateOfBirth(String text) {
+        Pattern dobPattern = Pattern.compile("\\b\\d{2}\\.\\d{2}\\.\\d{4}\\b"); // dd.MM.yyyy
+        Matcher matcher = dobPattern.matcher(text);
+        if (matcher.find()) {
+            return matcher.group();
+        }
+        return "unknown";
+    }
+
+
+
+}
+
+
+
+

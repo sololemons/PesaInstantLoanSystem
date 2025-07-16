@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d29868a-773c-4306-b4b5-f82a51c26895" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UserService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/UserServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/authentication/controllers/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/authentication/controllers/ResetPasswordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/authentication/services/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/authentication/services/ResetPasswordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/configuration/ApplicationConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/configuration/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/configuration/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/configuration/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/dtos/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/dtos/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/dtos/ForgotPasswordDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/dtos/OptData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/dtos/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/dtos/ResetPasswordRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/security/dtos/VerifyPasswordRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/configuration/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/dtos/UserStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/exceptions/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/exceptions/MissingFieldException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/exceptions/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/exceptions/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/retrofit/AfricaTalkingApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/retrofit/RetrofitClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/services/SmsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/user/utility/OtpStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/test/java/com/userservice/UserServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/apiGateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/src/main/java/com/apiGateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiGateway/apiGateway/src/test/java/com/apiGateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/application service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/ApplicationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/controllers/ApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/controllers/InterestCalculatorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/ApplicationDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/ApplicationFormDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/DisbursementRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/IdDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/InterestPlanDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/Occupation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/PlanDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/Progress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/dtos/UserIdDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/entities/ApplicationForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/entities/InterestPlan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/exceptions/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/exceptions/MissingFieldException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/exceptions/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/exceptions/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/rabbitMQ/RabbitMQConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/repositories/ApplicationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/repositories/RepaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/retrofit/ApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/retrofit/RetrofitClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/retrofit/RetrofitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/retrofit/RetrofitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/services/ApplicationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/services/InterestCalculateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/services/OcrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/java/com/applicationservice/services/TrackApplicationProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application service/application-service/src/test/java/com/applicationservice/ApplicationServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/src/main/java/com/shared/dtos/CreditResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/src/main/java/com/shared/dtos/LoanLimitDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/src/main/java/com/shared/dtos/ProgressDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/src/main/java/com/shared/dtos/VerifyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/classes/com/shared/dtos/CreditResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/classes/com/shared/dtos/LoanLimitDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/classes/com/shared/dtos/ProgressDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/classes/com/shared/dtos/VerifyDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/common-dtos-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common-dtos/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/eurekaserver.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/src/main/java/com/eurekaserver/EurekaserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/eurekaserver/src/test/java/com/eurekaserver/EurekaserverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/.prettierrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/public/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/public/pesainstant.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/assets/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/components/InterestCalculator.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/components/LoadingSpinner.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/components/Logo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/components/PesaInstantSidePage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/components/RepaymentModal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/components/WithdrawalModal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/stores/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/stores/authGuard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/stores/getApplications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/stores/getUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/ApplyPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/ForgotPassword.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/HomePage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/LoanManagement.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/Profile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/ResetPassword.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/Signup.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/VerifyLoanAmount.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/src/views/VerifyOtp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pesainstantfrontend/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/.idea/verification-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/received_uploads/Josphine id.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/received_uploads/Kevin ID-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/received_uploads/babe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/received_uploads/hakibets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/received_uploads/save 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/received_uploads/save.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/received_uploads/saveeee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/VerificationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/configuration/RabbitMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/dtos/CrbResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/dtos/IdDetailsPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/dtos/LoanLimitDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/services/CrbService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/services/CreditScoringService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/services/OcrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/java/com/verification/services/VerificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verification-service/verification-service/src/test/java/com/verification/VerificationServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/.idea/walletservice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/WalletserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/configuration/RabbitMQConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/controller/MpesaB2CController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/controller/MpesaSTKPushController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/controller/TransactionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/controller/WalletController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/dtos/PaymentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/dtos/TransactionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/dtos/WalletDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/entity/DisbursementRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/entity/TransactionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/entity/Wallet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/entity/WalletTransactionHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/exceptions/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/exceptions/MissingFieldException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/exceptions/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/exceptions/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/repository/TransactionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/repository/WalletRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/services/MpesaB2CService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/services/MpesaSTKService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/services/TransactionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/java/com/walletservice/services/WalletService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../walletservice/walletservice/src/test/java/com/walletservice/WalletserviceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2xcftIGU1ewybahb7Q8gziK1ujV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.UserServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/PesaInstantLoan/application service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\soloprojects\UserService\UserService\src\main\java\com\userservice\user\retrofit" />
+      <recent name="Z:\soloprojects\UserService\UserService\src\main\java\com\userservice\security\dtos" />
+      <recent name="Z:\soloprojects\UserService\UserService\src\main\java\com\userservice\user\exceptions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\soloprojects\UserService\UserService\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.userservice.user.services" />
+      <recent name="com.userservice.user.utility" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="UserService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d29868a-773c-4306-b4b5-f82a51c26895" name="Changes" comment="" />
+      <created>1748242496188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748242496188</updated>
+      <workItem from="1748242498639" duration="14453000" />
+      <workItem from="1748693524903" duration="601000" />
+      <workItem from="1749038975596" duration="2254000" />
+      <workItem from="1749072921550" duration="12960000" />
+      <workItem from="1749329945547" duration="2435000" />
+      <workItem from="1749393555805" duration="6555000" />
+      <workItem from="1749657060771" duration="8107000" />
+      <workItem from="1750162845631" duration="24190000" />
+      <workItem from="1750771249017" duration="436000" />
+      <workItem from="1750898083709" duration="9286000" />
+      <workItem from="1752051543823" duration="1124000" />
+      <workItem from="1752055576864" duration="1394000" />
+      <workItem from="1752330355168" duration="1742000" />
+      <workItem from="1752647975051" duration="241000" />
+      <workItem from="1752650438415" duration="294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

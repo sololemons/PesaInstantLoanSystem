@@ -1,0 +1,4 @@
+com\shared\dtos\CreditResult.class
+com\shared\dtos\VerifyDto.class
+com\shared\dtos\LoanLimitDto.class
+com\shared\dtos\ProgressDto.class

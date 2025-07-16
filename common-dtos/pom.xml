@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.pesainstantloan</groupId>
+	<artifactId>common-dtos</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>Common DTO Module</name>
+	<description>Shared DTOs used across microservices</description>
+
+	<dependencies>
+		<!-- Lombok for getters/setters -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>

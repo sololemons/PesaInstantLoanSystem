@@ -1,0 +1,13 @@
+package com.walletservice.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class DisbursementRequest {
+    private String amount;
+    private String phoneNumber;
+}
